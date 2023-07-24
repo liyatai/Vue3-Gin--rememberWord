@@ -1,0 +1,8 @@
+/* 字体 */
+@font-face{
+    font-family: 'FZSJ-CAOMWDQH';
+    src: url('../assets/FZSJ-CAOMWDQH.TTF') format("truetype");
+}
+body{
+    font-family: FZSJ-CAOMWDQH;
+}

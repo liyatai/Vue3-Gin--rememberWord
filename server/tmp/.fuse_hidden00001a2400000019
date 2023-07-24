@@ -1,0 +1,5 @@
+# server/api
+api/json.go:35:3: not enough return values
+	have ()
+	want ([]string)
+api/json.go:41:1: missing return

@@ -1,0 +1,1 @@
+import{_ as t}from"./myAxios-1e2d0517.js";import{k as n}from"./index-197aefc0.js";function p(a=n){const r=Math.floor(Math.random()*a.length);return a[r]}const m=(a,r)=>{const o=new URLSearchParams;o.append("words",JSON.stringify(r)),o.append("name",a),t.post("/admin/update",o)};export{p as f,m as u};
