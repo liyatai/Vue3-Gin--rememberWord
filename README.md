@@ -1,4 +1,4 @@
-![2](https://github.com/liyatai/Vue3-Gin--rememberWord/assets/102398022/7fdc7a80-4603-473f-a8cd-79cb49b79363)# Vue3-Gin--rememberWord
+
 vue3+ts+vite+gin开发的记单词app
 ## 
 
@@ -61,6 +61,7 @@ vue3+ts+vite+gin开发的记单词app
 #### 管理表中的词汇
 
 &emsp;&emsp;可以对表中的词汇进行**增删改查**的操作。
+![2](https://github.com/liyatai/Vue3-Gin--rememberWord/assets/102398022/7fdc7a80-4603-473f-a8cd-79cb49b79363)# Vue3-Gin--rememberWord
 
 
 ## 使用场景
