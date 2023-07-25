@@ -20,3 +20,8 @@ func DeleteItem(wordList []Word, flag Word) []Word {
 	}
 	return tmp
 }
+
+// 定义Site结构体
+type Site struct {
+	Location string
+}

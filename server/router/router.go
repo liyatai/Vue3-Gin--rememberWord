@@ -1,6 +1,7 @@
 package router
 
 import (
+	"server/api"
 	"server/controller"
 
 	"github.com/gin-gonic/gin"
@@ -31,4 +32,9 @@ func SetRouter(r *gin.Engine) {
 	admin.POST("addWord", controller.AddWord)
 	// 搜索特定的单词
 	admin.GET("findWord", controller.FindWord)
+	// 测试
+	admin.GET("test", func(ctx *gin.Context) {
+		s := api.GetSite()
+		ctx.JSON(200, s)
+	})
 }

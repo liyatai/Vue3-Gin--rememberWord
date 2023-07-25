@@ -21,9 +21,8 @@ function side(e:MouseEvent){
     // 路由跳转
     const url = target.dataset.name 
     router.push('/'+url)
-
-    
 }
+
 </script>
 <style scoped>
 .side:nth-child(1){

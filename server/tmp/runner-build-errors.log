@@ -1,0 +1,3 @@
+# server/api
+api\json.go:91:6: GetSite redeclared in this block
+	api\cross.go:14:6: other declaration of GetSite

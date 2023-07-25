@@ -86,3 +86,23 @@ func GetDetail() []model.Detail {
 	}
 	return details
 }
+
+// 获取前端地址
+func GetSite() string {
+	filePtr, err := os.Open("./port.json")
+	if err != nil {
+		fmt.Println("文件打开失败", err.Error())
+	}
+	defer filePtr.Close()
+	var data model.Site
+	// 创建json解码器
+	decoder := json.NewDecoder(filePtr)
+	err = decoder.Decode(&data)
+	if err != nil {
+		fmt.Println("解码失败", err.Error())
+	} else {
+		fmt.Println("解码成功")
+
+	}
+	return data.Location
+}
